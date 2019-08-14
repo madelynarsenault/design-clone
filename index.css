@@ -1,0 +1,186 @@
+body{
+    background-image:url("https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png");
+    display: inline-block;
+}
+
+
+ul {
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+    height: 20vh;
+    align-items:flex-start;
+    
+}
+
+
+
+
+.nav-start {
+    font-size: 2.3ch;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 8vh;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.main{
+    list-style-type:none;  
+    font-family: 'Didact Gothic', sans-serif;
+    color: white; 
+}
+
+.nav-middle{
+    list-style-type:none;  
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-size: 2ch;
+    width:40vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.subscribe{ 
+    list-style-type:none;  
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    background-color: transparent;
+    padding: 40px, 50px;
+    width:150px;
+    height:55px;
+    border-radius: 100px;
+    border:1px solid white;
+    font-size: 2ch;
+
+    
+    
+}
+
+
+
+li:hover {
+    color:rgb(21, 21, 21);
+    cursor: pointer;
+}
+
+ul > li {
+    margin-left:50px;
+    margin-top:67px;
+}
+.center{
+background-color:transparent;
+height:40vh;
+width:100vw;
+display:flex;
+/* justify-content: center; */
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.title{
+    color:white;
+    font-size: 9ch;
+    font-family: 'Lexend Deca', sans-serif;
+    display:flex;
+    align-items: center;
+}
+.paragraph{
+    color:white;
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.p{
+    align-items: center;
+    margin-top:0px;
+    font-size: 3.4ch;
+    width: 600px;
+    height:90px;
+    justify-content:center;
+    line-height: 2;
+    text-align: center;
+
+}
+
+.start{
+    list-style-type:none;  
+    font-family: 'Didact Gothic', sans-serif;
+    color:blue;
+    background-color: white;
+    border-radius: 100px;
+    border:1px solid white;
+    font-size: 2.5ch;
+    padding: 43px, 50px;
+    width:150px;
+    height:55px;
+    display:flex;
+    text-align: center;
+    margin-top:60px;
+    /* margin-top:160px;
+    margin-left:200px; */
+}
+
+.scroll{
+    color:white;
+    /* list-style-type:none;   */
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-size: 2ch;
+    margin-top:150px;
+    text-align: center;
+}
+
+.invision{
+    color:white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2ch;
+    display:flex;
+    transform: rotate(-90deg);
+    margin-right:1800px;
+    margin-top: -150px;
+}
+
+.twitter{
+    width:40px;
+    height:40px;
+    margin-left:1850px;
+    border-radius: 100px;
+    border-color: white;
+    background-color: transparent;
+    margin-top: -100px;
+}
+.facebook{
+    width:40px;
+    height:40px;
+    margin-left:1850px;
+    border-radius: 100px;
+    border-color:white;
+    background-color: transparent;
+    /* margin-top:-60px; */
+}
+.in{
+    width:40px;
+    height:40px;
+    margin-left:1850px;
+    border-radius: 100px;
+    border-color:white;
+    background-color: transparent
+}
+.share{
+    width:40px;
+    height:40px;
+    margin-left:1850px;
+    border-radius: 100px;
+    border-color:white;
+    background-color: transparent
+}
